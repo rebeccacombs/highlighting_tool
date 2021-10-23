@@ -1,0 +1,149 @@
+.blueHighlight{
+  color: white;
+  background-color: rgb(92, 165, 233);
+}
+.pages{
+  white-space: pre-wrap;
+  width: 40%;
+  margin: 4%;
+  -webkit-column-count: 1; /* Chrome, Safari, Opera */
+  -webkit-column-fill: balance;
+  -moz-column-count: 1; /* Firefox */
+  -moz-column-fill: balance;
+  column-count: 1;
+  column-fill: balance;
+  column-gap: 15%;
+}
+p{
+  display: block;
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+
+ul.tools {
+  display: none;
+  list-style: none;
+  box-shadow: 0px 0px 4px rgba(0,0,0,.5);
+  border: solid 1px #000;
+  position: absolute;
+  background: rgb(202, 202, 202);
+  -webkit-padding-start: 0%;
+}
+ul.tools li {
+  display: inline-flex;
+  justify-content: center;
+}
+
+ul.tools button{
+  width: 80px;
+  height: 40px;
+  border: solid 1px #000;
+  margin: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+
+ul.color {
+  display: none;
+  list-style: none;
+  box-shadow: 0px 0px 4px rgba(0,0,0,.5);
+  border: solid 1px #000;
+  position: absolute;
+  background: rgb(255, 255, 255);
+  -webkit-padding-start: 0%;
+}
+ul.color span{
+  display: inline-flex;
+  justify-content: center;
+  margin: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.dot {
+  height: 15px;
+  width: 5px;
+  background-color: rgb(255, 255, 73);
+  border-radius: 50%;
+  display: inline-block;
+}
+.dot2 {
+  height: 15px;
+  width: 5px;
+  background-color: rgb(125, 255, 147);
+  border-radius: 50%;
+  display: inline-block;
+}
+.dot3 {
+  height: 15px;
+  width: 5px;
+  background-color: rgb(128, 243, 247);
+  border-radius: 50%;
+  display: inline-block;
+}
+.dot4 {
+  height: 15px;
+  width: 5px;
+  background-color: rgb(255, 113, 156);
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.note{
+  display: none;
+  list-style: none;
+  position: absolute;
+}
+
+li textarea{
+  box-shadow: 0px 0px 4px rgba(0,0,0,.5);
+  border: solid 1px #000;
+  height: 100px;
+  width: 200px;
+  resize: none;
+  background: rgb(245, 255, 106);
+  -webkit-padding-start: 0%;
+} 
+
+.navbar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s;
+}
+
+.navbar li {
+  list-style: none;
+  padding: 8px 8px 8px 16px;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.navbar h1{
+  list-style: none;
+  padding: 8px 8px 8px 32px;
+  margin: 0;
+  z-index: -1;
+  font-size: 50px;
+  color: #ffffff;
+  display: block;
+  transition: 0.3s;
+}
+.navbar li:hover, .offcanvas li:focus {
+  color: #f1f1f1;
+}
+.navbar .closeBtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+} 
